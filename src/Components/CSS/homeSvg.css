@@ -1,0 +1,175 @@
+
+.svg-right-container{
+    margin: 0 auto;
+}
+.svgImg #RightHand{
+    animation: rightHandAnime 2s ease-in-out infinite alternate;
+    transform-origin:right;
+    transform-box:fill-box;
+}
+@keyframes rightHandAnime {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-2deg);
+    }
+}
+.svgImg #LeftHand{
+    animation: leftHandAnime 2s ease-in-out infinite alternate;
+    /* transform: rotate(9deg); */
+    transform-origin:left;
+    transform-box:fill-box;
+}
+@keyframes leftHandAnime {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-8deg);
+    }
+}
+.svgImg #Laptop {
+    animation: laptopAnime 2s ease-in-out infinite alternate;
+}
+.svgImg #Laptop #path128, #path130{
+    /* fill: #7595EC; */
+    animation: shapeChangeColor 5s infinite alternate;
+}
+.svgImg #path124{
+    animation: laptopBackColor 3s infinite ease-in-out alternate;
+}
+.svgImg #path122{
+    animation: laptopKeyColor 3s infinite ease-in-out alternate;
+}
+@keyframes laptopBackColor {
+    0%{
+        fill: rgb(17, 160, 160);
+    }
+    100%{
+        fill: rgb(95, 228, 233);
+    }
+}
+
+@keyframes laptopKeyColor {
+    0%{
+        fill: rgb(0, 167, 8);
+        opacity: 0.2;
+    }
+    100%{
+        fill: rgb(241, 41, 41);
+    }
+}
+@keyframes laptopAnime {
+    0%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(-35px);
+    }
+}
+.svgImg #Hair{
+    animation: hairAnime 2s infinite alternate ease-in-out;
+}
+@keyframes hairAnime {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-3px);
+    }
+}
+.svgImg #bImg{
+    animation: bImg 2s infinite alternate ease-in;
+}
+@keyframes bImg {
+    0%{
+        transform: translateX(-5px);
+    }
+    100%{
+        transform: translateX(5px);
+    }
+}
+.svgImg #LeftLeg{
+    animation: leftLegAnime 2s infinite alternate ease-in-out;
+    transform-origin:left;
+    transform-box:fill-box;
+}
+@keyframes leftLegAnime {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(4deg);
+    }
+}
+.svgImg #LeftShoe{
+    animation: leftShoeAnime 2s infinite alternate ease-in-out;
+    transform-origin:left;
+    transform-box:fill-box;
+}
+@keyframes leftShoeAnime {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+.svgImg #RightLeg{
+    animation: RightLegAnime 2s infinite alternate ease-in-out;
+    transform-origin:Right;
+    transform-box:fill-box;
+}
+@keyframes RightLegAnime {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(4deg);
+    }
+}
+.svgImg #RightShoe{
+    animation: RightShoeAnime 2s infinite alternate ease-in-out;
+    transform-origin:Right;
+    transform-box:fill-box;
+}
+@keyframes RightShoeAnime {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(4deg);
+    }
+}
+.svgImg #Shapes{
+    animation: shapeChangeColor 2s infinite alternate;
+    font-size: 20px;
+}
+@keyframes shapeChangeColor {
+    0%{
+        fill: yellow;
+    }
+    100%{
+        fill:red;
+    }
+}
+.svgImg #Mail{
+    fill: yellow;
+    animation: mailAnime 2s infinite alternate ease-in-out;
+}
+.svgImg #downImg{
+    background-color: yellow;
+    animation: mailAnime 2s infinite alternate ease-in;
+}
+.svgImg #downImg #path156, #path158, #path160,  #path162{
+    fill: #7595EC;
+}
+@keyframes mailAnime {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
