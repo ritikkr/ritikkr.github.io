@@ -23,7 +23,7 @@ const Body = () => {
         <div className="social-icons">
           <ul>
             <li>
-              <a href="">
+              <a href="https://github.com/ritikkr">
                 <img src={githubIcon} alt="" height="45px" width="45x" />
               </a>
             </li>
@@ -35,19 +35,19 @@ const Body = () => {
             </li>
             
             <li>
-              <a href="">
+              <a href="https://twitter.com/ritikkr24">
                 <img src={twitterIcon} alt="" height="45px" width="45x" />
               </a>
             </li>
             
             <li>
-              <a href="">
+              <a href="https://stackoverflow.com/users/10554702/ritik-kumar">
                 <img src={stackOverflowIcon} alt="" height="45px" width="45x" />
               </a>
             </li>
             
             <li>
-              <a href="">
+              <a href="mailto:ritikkumar2405199@gmail.com">
                 <img src={mailIcon} alt="" height="45px" width="45x" />
               </a>
             </li>
