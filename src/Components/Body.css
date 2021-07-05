@@ -56,8 +56,12 @@
   background-color: #7595ec;
   color: black;
   height: 35px;
-  width: 100px;
+  width: 120px;
   font-weight: 550;
+}
+.resumeImg{
+    height: 25px;
+    width: 25px;
 }
 .social-icons {
   margin: 20px 0;

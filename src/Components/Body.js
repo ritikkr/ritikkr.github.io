@@ -5,6 +5,7 @@ import linkedinIcon from "./Icons/icons8-linkedin-circled.gif";
 import twitterIcon from "./Icons/icons8-twitter-circled.gif";
 import stackOverflowIcon from "./Icons/icons8-stack-overflow.svg";
 import mailIcon from "./Icons/icons8-secured-letter.gif";
+import resumeIcon from './Icons/resume.png'
 import "./Body.css";
 import "./CSS/homeSvg.css";
 const Body = () => {
@@ -17,7 +18,7 @@ const Body = () => {
         <span id="flag">🇮🇳</span>
         <br></br>
         <a href="" id="Resume">
-          Resume
+          Resume <img src={resumeIcon} alt="" className="resumeImg" />
         </a>
         <div className="social-icons">
           <ul>
