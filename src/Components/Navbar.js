@@ -1,11 +1,32 @@
 import React, { Component } from "react";
-import "./Nav.css";
-import menuIcon from "./Icons/icons8-menu.svg"
-const intro = () => {
-    let myIntro = ["Machine Learning", "Web Development", ""]
-}
-const Navbar = () => {
-  return (
+import "./CSS/Nav.css";
+import About from "./About";
+import Body from "./Body";
+import Projects from "./Projects";
+import Contact from "./Contact.js"
+
+class Navbar extends Component {
+  state = { 
+    render: 'home' 
+  }
+  constructor(){
+    super();
+    this.handleMenuEvent.bind(this);
+  }
+  handleMenuEvent(event, menu){
+    console.log(menu);
+    this.setState({render:menu});
+  }
+  renderSubComp(){
+    switch(this.state.render){
+      case 'home': return <Body />
+      case 'about': return <About />
+      case 'projects': return <Projects />
+      case 'contact': return <Contact />
+    }
+  }
+  render() { 
+    return (
     <div className="container">
       <div className="header-container">
         <div className="logo-div">
@@ -14,24 +35,27 @@ const Navbar = () => {
         <div className="menu-div">
           <ul id="menu-list">
             <li>
-              <a href="">Home</a>
+              <a onClick={()=>this.handleMenuEvent(this, 'home')}>Home</a>
             </li>
             <li>
-              <a href="">About</a>
+              <a onClick={()=>this.handleMenuEvent(this, 'about')} >About</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a onClick={()=>this.handleMenuEvent(this, 'projects')} >Projects</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a onClick={()=>this.handleMenuEvent(this, 'contact')}>Contact</a>
             </li>
            
           </ul>
         </div>
       </div>
+      {this.renderSubComp()}
     </div>
   
   );
-};
+  }
+}
+ 
 
 export default Navbar;

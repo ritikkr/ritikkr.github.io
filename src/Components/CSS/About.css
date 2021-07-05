@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 10px;
+}
+.About-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-weight: 500;
+    font-size: 50px;
+}
+.About-lit-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 800;
+}
+.About-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.introduction{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.svgContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 100px;
+}
+.Aboutsvg .halfWhite{
+    /* animation: halfWhiteAnime 2s infinite ease-in-out; */
+    fill: red;
+}
+@keyframes halfWhiteAnime {
+    0%{
+        fill:yellow;
+    }
+    100%{
+        fill:red;
+    }
+}

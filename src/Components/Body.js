@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { ReactComponent as Icon } from "./LandingImage.svg";
+import { ReactComponent as Icon } from "./static/LandingImage.svg";
 import githubIcon from "./Icons/icons8-github.gif";
 import linkedinIcon from "./Icons/icons8-linkedin-circled.gif";
 import twitterIcon from "./Icons/icons8-twitter-circled.gif";
 import stackOverflowIcon from "./Icons/icons8-stack-overflow.svg";
 import mailIcon from "./Icons/icons8-secured-letter.gif";
 import resumeIcon from './Icons/resume.png'
-import "./Body.css";
+import "./CSS/Body.css";
 import "./CSS/homeSvg.css";
 const Body = () => {
   return (
@@ -17,7 +17,7 @@ const Body = () => {
         <p id="litIntro"> ➤ 👨‍💻 I'm Web and Software Developer from India</p>
         <span id="flag">🇮🇳</span>
         <br></br>
-        <a href="" id="Resume">
+        <a href="https://drive.google.com/file/d/1twv3wkjyOo-LwMhra9Gx5u8ewRF9Ruz1/view?usp=sharing" id="Resume">
           Resume <img src={resumeIcon} alt="" className="resumeImg" />
         </a>
         <div className="social-icons">
@@ -29,7 +29,7 @@ const Body = () => {
             </li>
             
             <li>
-              <a href="">
+              <a href="https://www.linkedin.com/in/ritikkr/">
                 <img src={linkedinIcon} alt="" height="45px" width="45x" />
               </a>
             </li>
