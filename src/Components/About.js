@@ -110,7 +110,7 @@ const About = () => {
           </div>
         </div>
         <div className="svgContainer">
-          <img src={AboutGif} alt="" />
+          <img src={AboutGif} alt="" id="AboutImg" />
         </div>
       </div>
     </div>

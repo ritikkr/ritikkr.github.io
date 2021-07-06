@@ -9,11 +9,10 @@
 }
 .Aboutcontainer {
   height: 70%;
-
   margin-top: 10px;
 }
-.About-title-font{
-    font-family: "Big Shoulders Stencil Text", cursive;
+.About-title-font {
+  font-family: "Big Shoulders Stencil Text", cursive;
 }
 .About-title {
   display: flex;
@@ -31,7 +30,7 @@
   font-weight: 800;
 }
 .About-container {
-    display: flex;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -41,104 +40,54 @@
   font-weight: 800;
 }
 .skills-set {
-    display: flex;
-    flex-direction: row;
-    /* border:2px solid black; */
-    height: 500px;
+  display: flex;
+  flex-direction: row;
+  /* border:2px solid black; */
+  height: 500px;
 }
-.language-stack{
-    
-    width: 33.3%;
-    /* border:2px solid red; */
+.language-stack {
+  width: 33.3%;
+  /* border:2px solid red; */
 }
-.tech-stack{
-    
-    width: 33.3%;
-    /* border:2px solid blue; */
+.tech-stack {
+  width: 33.3%;
+  /* border:2px solid blue; */
 }
-.framework-stack{
-   
-    width: 33.3%;
-    /* border:2px solid yellow; */
+.framework-stack {
+  width: 33.3%;
+  /* border:2px solid yellow; */
 }
 .skills-container ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-    list-style: none;
-  }
-  .skills-container ul li {
-    margin: auto 7px;
-    
-  }
- .skill-subtitle{
-    font-family: "Montserrat", sans-serif;
-     font-size: 16px;
-     text-align: center;
-     letter-spacing: 1.2px;
- }
-.icon-m{
-    margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  list-style: none;
 }
-
-
-
-  .svgContainer {
+.skills-container ul li {
+  margin: auto 7px;
+}
+.skill-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.icon-m {
+  margin: 10px;
+}
+.svgContainer {
   display: flex;
   justify-content: flex-end;
   margin-left: 100px;
 }
-.Aboutsvg #BlueSquare {
-  animation: BlueSquareAnime 2s linear infinite alternate;
-}
-@keyframes BlueSquareAnime {
-  0% {
-    fill: blue;
-  }
-  60% {
-    fill: royalblue;
-  }
-  100% {
-    fill: slateblue;
-  }
-}
-.Aboutsvg #HalfWhite {
-  animation: HalfWhiteAnime 2s linear infinite alternate;
-}
-@keyframes HalfWhiteAnime {
-  0% {
-    fill: rgb(79, 216, 25);
-  }
-  60% {
-    fill: rgb(67, 20, 129);
-  }
-  100% {
-    fill: white;
-  }
-}
-.Aboutsvg #AnotherHalfWhite {
-  animation: halfWhiteAnime 2s infinite alternate;
-  /* fill: red !important; */
-}
-@keyframes halfWhiteAnime {
-  0% {
-    fill: yellow;
-  }
-  100% {
-    fill: red;
-  }
-}
 
-.Aboutsvg #Cloud {
-  animation: CloudAnime 3s infinite alternate;
-  /* fill: red !important; */
-}
-@keyframes CloudAnime {
-  0% {
-    fill: rgb(13, 88, 228);
+@media (max-width: 940px) {
+  .About-container {
+    flex-direction: column-reverse;
   }
-  100% {
-    fill: rgb(13, 228, 156);
-  }
+ #AboutImg{
+   height: 400px;
+   width: 400px;
+ }
 }
