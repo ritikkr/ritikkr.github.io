@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f1a9332.chunk.css",
-    "main.js": "/static/js/main.0a9b9640.chunk.js",
-    "main.js.map": "/static/js/main.0a9b9640.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9d7936b9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9d7936b9.js.map",
+    "main.css": "/static/css/main.f4a695f9.chunk.css",
+    "main.js": "/static/js/main.1acbdfcd.chunk.js",
+    "main.js.map": "/static/js/main.1acbdfcd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6a4542df.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6a4542df.js.map",
     "static/js/2.cdd4812a.chunk.js": "/static/js/2.cdd4812a.chunk.js",
     "static/js/2.cdd4812a.chunk.js.map": "/static/js/2.cdd4812a.chunk.js.map",
-    "static/js/3.14519372.chunk.js": "/static/js/3.14519372.chunk.js",
-    "static/js/3.14519372.chunk.js.map": "/static/js/3.14519372.chunk.js.map",
+    "static/js/3.44d3261c.chunk.js": "/static/js/3.44d3261c.chunk.js",
+    "static/js/3.44d3261c.chunk.js.map": "/static/js/3.44d3261c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9f1a9332.chunk.css.map": "/static/css/main.9f1a9332.chunk.css.map",
+    "static/css/main.f4a695f9.chunk.css.map": "/static/css/main.f4a695f9.chunk.css.map",
     "static/js/2.cdd4812a.chunk.js.LICENSE.txt": "/static/js/2.cdd4812a.chunk.js.LICENSE.txt",
     "static/media/LandingImage.80cf2a85.svg": "/static/media/LandingImage.80cf2a85.svg",
     "static/media/anime2.6e9e4799.gif": "/static/media/anime2.6e9e4799.gif",
@@ -27,14 +27,15 @@
     "static/media/icons8-twitter-circled.292884df.gif": "/static/media/icons8-twitter-circled.292884df.gif",
     "static/media/java.5386b56c.svg": "/static/media/java.5386b56c.svg",
     "static/media/javascript.081325c6.svg": "/static/media/javascript.081325c6.svg",
+    "static/media/portfolio2.e50b8408.png": "/static/media/portfolio2.e50b8408.png",
     "static/media/python.026a6268.svg": "/static/media/python.026a6268.svg",
     "static/media/react-native.867e22e5.svg": "/static/media/react-native.867e22e5.svg",
     "static/media/scala.d75aebd6.png": "/static/media/scala.d75aebd6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d7936b9.js",
+    "static/js/runtime-main.6a4542df.js",
     "static/js/2.cdd4812a.chunk.js",
-    "static/css/main.9f1a9332.chunk.css",
-    "static/js/main.0a9b9640.chunk.js"
+    "static/css/main.f4a695f9.chunk.css",
+    "static/js/main.1acbdfcd.chunk.js"
   ]
 }
