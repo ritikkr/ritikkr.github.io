@@ -1,0 +1,13 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-header-container {
+    margin: 40px auto;
+  }
+  .contact-head {
+    font-family: "Big Shoulders Stencil Text", cursive;
+    font-size: 40px;
+  }

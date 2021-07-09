@@ -1,0 +1,52 @@
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.project-header-container {
+  margin: 40px auto;
+}
+.project-head {
+  font-family: "Big Shoulders Stencil Text", cursive;
+  font-size: 40px;
+}
+.project-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.project-card {
+  width: 550px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+  min-height: 700px;
+  min-width: 400px;
+  margin: 40px 40px;
+}
+.project-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+     
+}
+.project-card-img {
+  height: 400px;
+  width: 400px;
+}
+.project-card-head {
+  margin: 10px auto;
+  font-family: "Big Shoulders Stencil Text", cursive;
+  font-size: 24px;
+}
+.project-details {
+  text-align: justify;
+  font-family: monospace;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+}
