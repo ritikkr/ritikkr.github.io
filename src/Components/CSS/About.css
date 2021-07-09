@@ -87,15 +87,13 @@
    letter-spacing: 0.11px;
  }
  .Introduction-div{
-   margin-left: 280px;
+   margin-left: 0px;
    margin-right: 0px;
  }
  .About-title-font{
    font-size: 25px;
  }
- .skills-container{
-   /* margin-top: 20px; */
- }
+ 
  .skills-set{
    flex-direction: column;
  }
@@ -105,4 +103,11 @@
 .skills-container ul li {
   margin: auto 10px;
 }
+.skill-subtitle{
+  font-size: 12px;
+}
+ img{
+   height: 20px;
+   width: 20px;
+ }
 }
