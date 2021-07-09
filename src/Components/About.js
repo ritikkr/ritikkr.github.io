@@ -45,25 +45,25 @@ const About = () => {
             <ul>
                 <p className="skill-subtitle">Programming Languages</p>
                     <li>
-                        <img src={clang} alt="" />
+                        <img src={clang} alt="" class="aboutIcon" />
                     </li>
                     <li>
-                        <img src={cpp}alt="" />
+                        <img src={cpp}alt="" class="aboutIcon" />
                     </li>     
                     <li>
-                        <img src={java} alt="" />
+                        <img src={java} alt="" class="aboutIcon" />
                     </li>
                     <li>
-                        <img src={python} alt="" />
+                        <img src={python} alt="" class="aboutIcon" />
                     </li>                         
                     <li>
                         <img src={js}alt="" />
                     </li>     
                     <li>
-                        <img src={scalaIcon}alt="" height="40px" width="40px"/>
+                        <img src={scalaIcon}alt="" height="40px" width="40px" class="aboutIcon"/>
                     </li>     
                     <li>
-                        <img src={sqlIcon}alt="" height="40px" width="40px" class="icon-m" />
+                        <img src={sqlIcon}alt="" height="40px" width="40px" class="icon-m" class="aboutIcon" />
                     </li>     
                    
                 </ul>
@@ -72,10 +72,10 @@ const About = () => {
                 <ul>
                 <p className="skill-subtitle">Technology</p>
                     <li>
-                        <img src={github} alt="" />
+                        <img src={github} alt="" class="aboutIcon" />
                     </li>
                     <li>
-                        <img src={vsIcon} alt="" height="40px" width="40px" />
+                        <img src={vsIcon} alt="" height="40px" width="40px"  class="aboutIcon"/>
                     </li> 
                 </ul>
             </div>
@@ -83,10 +83,10 @@ const About = () => {
             <ul>
                 <p className="skill-subtitle">Frameworks</p>
                     <li>
-                        <img src={django} alt="" />
+                        <img src={django} alt="" class="aboutIcon" />
                     </li>
                     <li>
-                        <img src={reactIcon} alt="" />
+                        <img src={reactIcon} alt="" class="aboutIcon" />
                     </li>
                 </ul>
                 
@@ -95,13 +95,13 @@ const About = () => {
             <ul>
                 <p className="skill-subtitle">Others</p>
                     <li>
-                        <img src={html} alt="" />
+                        <img src={html} alt="" class="aboutIcon" />
                     </li>
                     <li>
-                        <img src={css} alt="" />
+                        <img src={css} alt="" class="aboutIcon" />
                     </li>
                     <li>
-                        <img src={ai} alt="" height="40px" width="40px" class="icon-m" />
+                        <img src={ai} alt="" class="aboutIcon" height="40px" width="40px" class="icon-m" />
                     </li>
                 </ul>
                 

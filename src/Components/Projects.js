@@ -4,8 +4,8 @@ class Projects extends Component {
     state = {  }
     render() { 
         return (
-            <div className="container">
-                Hey Projects sector
+            <div className="project-container">
+                
             </div>
          );
     }
