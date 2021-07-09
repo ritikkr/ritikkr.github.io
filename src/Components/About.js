@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./CSS/About.css";
-import AboutGif from "./Icons/anime.gif";
+import AboutGif from "./Icons/anime2.gif";
 import clang from './Icons/c-programming.png';
 import python from './Icons/python.svg';
 import java from './Icons/java.svg';
@@ -69,8 +69,8 @@ const About = () => {
                 </ul>
             </div>
             <div className="tech-stack">
-                <p className="skill-subtitle">Technology</p>
                 <ul>
+                <p className="skill-subtitle">Technology</p>
                     <li>
                         <img src={github} alt="" />
                     </li>
@@ -80,8 +80,8 @@ const About = () => {
                 </ul>
             </div>
             <div className="framework-stack">
-                <p className="skill-subtitle">Frameworks</p>
             <ul>
+                <p className="skill-subtitle">Frameworks</p>
                     <li>
                         <img src={django} alt="" />
                     </li>
@@ -92,8 +92,8 @@ const About = () => {
                 
             </div>
             <div className="others-stack">
-                <p className="skill-subtitle">Others</p>
             <ul>
+                <p className="skill-subtitle">Others</p>
                     <li>
                         <img src={html} alt="" />
                     </li>
