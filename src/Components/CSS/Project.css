@@ -1,4 +1,5 @@
 .project-container {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +33,10 @@
 .project-card:hover {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
      
+}
+.description-container{
+  width: 100%;
+  margin: 0 35px;
 }
 .project-card-img {
   height: 400px;

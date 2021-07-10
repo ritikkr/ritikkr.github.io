@@ -77,3 +77,16 @@
   background-color: rgba(23, 130, 230, 0.863);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+@media (max-width: 1240px){
+  .contact-form button{
+    left: 0px;
+  }
+  .contact-form textarea {
+    margin: 10px 0 40px;
+  
+  }
+  .contact-form input {
+    margin: 10px 0 40px;
+
+  }
+}
