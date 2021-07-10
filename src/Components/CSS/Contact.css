@@ -1,13 +1,79 @@
 .contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .contact-header-container {
-    margin: 40px auto;
-  }
-  .contact-head {
-    font-family: "Big Shoulders Stencil Text", cursive;
-    font-size: 40px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-header-container {
+  margin: 40px auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-head {
+  font-family: "Big Shoulders Stencil Text", cursive;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.head-para {
+  font-size: 18px;
+}
+.contact-form-container {
+  width: 50%;
+  align-self: center;
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form input {
+  height: 30px;
+  width: 100%;
+  margin: 10px auto 40px auto;
+  border-radius: 20px;
+  padding: 10px 35px;
+  font-size: 18px;
+  border: 1px solid #e8e8e8;
+  line-height: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contact-form input:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.contact-form textarea {
+  height: 250px;
+  width: 100%;
+  font-size: 16px;
+  margin: 10px auto 40px auto;
+  padding: 10px 35px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.contact-form textarea:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.contact-form button {
+ position: relative;
+ left: 30px;
+  margin: 10px 0;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px 35px;
+  color:#fff;
+  font-weight: 700;
+  line-height: 16px;
+
+  background-color: rgba(23, 130, 230, 0.863);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
