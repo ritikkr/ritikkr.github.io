@@ -57,11 +57,8 @@ const About = () => {
                         <img src={python} alt="" class="aboutIcon" />
                     </li>                         
                     <li>
-                        <img src={js}alt="" />
-                    </li>     
-                    <li>
-                        <img src={scalaIcon}alt="" height="40px" width="40px" class="aboutIcon"/>
-                    </li>     
+                        <img src={js}alt="" class="aboutIcon" />
+                    </li>         
                     <li>
                         <img src={sqlIcon}alt="" height="40px" width="40px" class="icon-m" class="aboutIcon" />
                     </li>     

@@ -59,4 +59,13 @@
     .menu-div ul{
         justify-content: space-between;
     }
+    .menu-div a{
+        font-size: 18px;
+    }
+    .menu-div a:hover{
+        font-size: 20px;
+    }
+    #nameLogo{
+        font-size: 16px;
+    }
 }

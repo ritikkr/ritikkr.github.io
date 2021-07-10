@@ -9,11 +9,13 @@
   background-color: #FEFCFE;
 }
 .Aboutcontainer {
-  height: 70%;
+  height: 100%;
   margin-top: 10px;
 }
 .About-title-font {
   font-family: "Big Shoulders Stencil Text", cursive;
+  font-size: 24px;
+  margin: 20px auto;
 }
 .About-title {
   display: flex;
@@ -31,6 +33,7 @@
   font-weight: 800;
 }
 .About-container {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -40,6 +43,13 @@
   flex-direction: row;
   height: 500px;
 }
+.Introduction-div{
+  width: 100%;
+}
+.Introduction, .skills-container, .main-heading{
+  padding: 0 35px;
+}
+
 .language-stack {
   width: 33.3%;
 }
@@ -87,28 +97,39 @@
    font-size: 14px;
    letter-spacing: 0.11px;
  }
- .Introduction-div{
-   margin-left: 0px;
-   margin-right: 0px;
- }
+
  .About-title-font{
    font-size: 25px;
+   margin: 20px auto;
  }
  
  .skills-set{
    flex-direction: column;
+   margin: 10px auto;
  }
  .skills-container ul {
   flex-direction: row;
+  margin: 20px auto;
+  padding-left: 10px;
 }
 .skills-container ul li {
   margin: auto 10px;
 }
 .skill-subtitle{
   font-size: 12px;
+  font-weight: 300;
+  line-height: 28px;
 }
- img{
+.aboutIcon{
    height: 25px;
    width: 25px;
- }
+  }
+  .Introduction{
+    text-align: justify;
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
 }
