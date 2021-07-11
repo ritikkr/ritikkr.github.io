@@ -33,10 +33,7 @@ class App extends Component {
     return (
     <>
     <div>
-    <div>
     <Navbar handleMenuEvent={this.handleMenuEvent} />
-    </div>
-    {this.renderSubComp()}
     </div>
     </>
   );
