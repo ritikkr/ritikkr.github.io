@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
-import Body from './Components/Body';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 class App extends Component {
   state = {  }
   render() { 
     return (
     <>
+    <div>
+    <div>
     <Navbar />
+    </div>
+    
+    </div>
     </>
   );
   }
